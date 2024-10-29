@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="js/jquery.js"></script>
-    <link rel="shortcut icon" href="assets/images/Firefly 20240820112825.webp" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <!-- AOS JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <link rel="shortcut icon" href="assets/images/Firefly 20240820112825.webp" type="image/x-icon">
     <title>Mohammad Rasel</title>
 </head>
 
@@ -52,7 +54,7 @@
                 <div class="box">
                     <a href="#FAQ"><i class="fa-solid fa-circle-question"></i></a>
                 </div>
-<!--                 <div class="box">
+                <!--                 <div class="box">
                     <a href="#gigs"><i class="fa-solid fa-magnifying-glass-dollar"></i></a>
                 </div> -->
                 <div class="box">
@@ -73,65 +75,72 @@
             </div>
         </div>
         <!-- hero-section  -->
-        <div id="hero" class="hero-section">
-            <div class="image">
-                <img src="assets/images/Firefly 20240820112825.webp" alt="">
+        <div id="hero" class="hero-section" data-aos="fade-in" data-aos-duration="1000">
+            <div class="image" data-aos="zoom-in" data-aos-duration="1500">
+                <img src="assets/images/Firefly 20240820112825.webp" alt="Profile Image of Mohammad Rasel">
             </div>
-            <div class="name">Mohammad Rasel</div>
-            <div class="profession">WEB DEVELOPER</div>
+            <div class="name" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+                Mohammad Rasel
+            </div>
+            <div class="profession" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                WEB DEVELOPER
+            </div>
         </div>
         <!-- skill-section  -->
-        <div id="skills" class="skills-section">
+        <div id="skills" class="skills-section" data-aos="fade-up" data-aos-duration="1000">
             <div class="skills">
-                <div class="skill">
+                <div class="skill" data-aos="fade-up" data-aos-delay="100">
                     <i class="fab fa-html5"></i>
-                    <p>HTML</p> <!-- HTML Icon -->
+                    <p>HTML</p>
                 </div>
-                <div class="skill">
+                <div class="skill" data-aos="fade-up" data-aos-delay="200">
                     <i class="fab fa-css3-alt"></i>
-                    <p>CSS</p> <!-- CSS Icon -->
+                    <p>CSS</p>
                 </div>
-                <div class="skill">
+                <div class="skill" data-aos="fade-up" data-aos-delay="300">
                     <i class="fab fa-js-square"></i>
-                    <p>JavaScript</p> <!-- JavaScript Icon -->
+                    <p>JavaScript</p>
                 </div>
-                <div class="skill">
+                <div class="skill" data-aos="fade-up" data-aos-delay="400">
                     <i class="fab fa-php"></i>
-                    <p>PHP</p> <!-- PHP Icon -->
+                    <p>PHP</p>
                 </div>
-                <div class="skill">
+                <div class="skill" data-aos="fade-up" data-aos-delay="500">
                     <i class="fas fa-database"></i>
-                    <p>SQL</p> <!-- SQL Icon -->
+                    <p>SQL</p>
                 </div>
-                <div class="skill">
+                <div class="skill" data-aos="fade-up" data-aos-delay="600">
                     <i class="fab fa-wordpress"></i>
-                    <p>WordPress</p> <!-- WordPress Icon -->
+                    <p>WordPress</p>
                 </div>
-                <div class="skill">
+                <div class="skill" data-aos="fade-up" data-aos-delay="700">
                     <i class="fas fa-w"></i>
-                    <p>Wix</p> <!-- Wix Icon -->
+                    <p>Wix</p>
                 </div>
-                <div class="skill">
+                <div class="skill" data-aos="fade-up" data-aos-delay="800">
                     <i class="fas fa-robot"></i>
-                    <p>ChatGPT</p> <!-- ChatGPT Icon -->
+                    <p>ChatGPT</p>
                 </div>
-                <div class="skill">
+                <div class="skill" data-aos="fade-up" data-aos-delay="900">
                     <i class="fa-brands fa-sass"></i>
-                    <p>sass</p> <!-- ChatGPT Icon -->
+                    <p>Sass</p>
                 </div>
             </div>
         </div>
+
         <!-- about-section  -->
-        <div id="about" class="about-section">
-            <div class="title">ABOUT ME</div>
-            <div class="info">
+        <div id="about" class="about-section" data-aos="fade-up" data-aos-duration="1000">
+            <div class="title" data-aos="fade-down" data-aos-duration="1200">
+                ABOUT ME
+            </div>
+            <div class="info" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1500">
                 In this section, I’m focusing only on my professional expertise. I’m a web developer with a strong focus
-                on creating dynamic and custom managment system. My specialty includes building management systems,
-                blogs, and
-                e-commerce platforms. I aim to deliver projects that are not only functional but also user-friendly and
+                on creating dynamic and custom management systems. My specialty includes building management systems,
+                blogs, and e-commerce platforms. I aim to deliver projects that are not only functional but also
+                user-friendly and
                 tailored to meet clients' specific needs.
             </div>
-            <div class="social">
+            <div class="social" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
                 <a href="https://www.facebook.com/profile.php?id=61560266882811">
                     <i class="fa-brands fa-facebook-f"></i>
                 </a>
@@ -143,37 +152,40 @@
                 </a> -->
             </div>
         </div>
+
         <!-- project-section  -->
-        <div id="projects" class="projects-section">
-            <h2 class="section-title">BIG PROJECTS</h2>
+        <div id="projects" class="projects-section" data-aos="fade-up" data-aos-duration="1000">
+            <h2 class="section-title" data-aos="fade-down" data-aos-duration="1200">BIG PROJECTS</h2>
             <div class="projects">
-                <div class="project">
+                <div class="project" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1200">
                     <img src="./assets/images/Screenshot 2024-08-27 210453.png" alt="Project Thumbnail"
                         class="project-image">
-                    <div class="project-info">
+                    <div class="project-info" data-aos="fade-left" data-aos-delay="400" data-aos-duration="1200">
                         <h3 class="project-title">HAPPY</h3>
-                        <p class="project-description">I Work on this project in 2022-2023 as Web-Developer. my role is
-                            design and develop total project.</p>
+                        <p class="project-description">I worked on this project in 2022-2023 as a Web Developer. My role
+                            was to
+                            design and develop the entire project.</p>
                         <!-- <a href="link-to-project" class="project-link">View Project</a> -->
                     </div>
                 </div>
-                <div class="project">
+                <div class="project" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1200">
                     <img src="./assets/images/coinfandom.png" alt="Project Thumbnail" class="project-image">
-                    <div class="project-info">
+                    <div class="project-info" data-aos="fade-left" data-aos-delay="600" data-aos-duration="1200">
                         <h3 class="project-title">COINFANDOM</h3>
-                        <p class="project-description">I Enter on this project in 2024-Present as Founder, Develoepr.
-                            this is my own project.
-                        </p>
+                        <p class="project-description">I started this project in 2024 and am currently working on it as
+                            the
+                            Founder and Developer. This is my own project.</p>
                         <!-- <a href="link-to-project" class="project-link">View Project</a> -->
                     </div>
                 </div>
             </div>
         </div>
+
         <!-- services-section  -->
-        <div id="services" class="services-section">
-            <h2 class="section-title">SERVICES</h2>
+        <div id="services" class="services-section" data-aos="fade-up" data-aos-duration="1000">
+            <h2 class="section-title" data-aos="fade-down" data-aos-duration="1200">SERVICES</h2>
             <div class="services">
-                <div class="service">
+                <div class="service" data-aos="zoom-in" data-aos-delay="100">
                     <div class="icon">
                         <i class="fas fa-shopping-cart"></i>
                     </div>
@@ -184,7 +196,7 @@
                     </div>
                 </div>
 
-                <div class="service">
+                <div class="service" data-aos="zoom-in" data-aos-delay="200">
                     <div class="icon">
                         <i class="fas fa-rocket"></i>
                     </div>
@@ -195,7 +207,7 @@
                     </div>
                 </div>
 
-                <div class="service">
+                <div class="service" data-aos="zoom-in" data-aos-delay="300">
                     <div class="icon">
                         <i class="fas fa-sync-alt"></i>
                     </div>
@@ -206,7 +218,7 @@
                     </div>
                 </div>
 
-                <div class="service">
+                <div class="service" data-aos="zoom-in" data-aos-delay="400">
                     <div class="icon">
                         <i class="fas fa-code"></i>
                     </div>
@@ -217,9 +229,9 @@
                     </div>
                 </div>
 
-                <div class="service">
+                <div class="service" data-aos="zoom-in" data-aos-delay="500">
                     <div class="icon">
-                        <i class="fas fa-cogs"></i> <!-- Font Awesome icon for feature integration -->
+                        <i class="fas fa-cogs"></i>
                     </div>
                     <div class="title">Feature Integration</div>
                     <div class="description">
@@ -228,9 +240,9 @@
                     </div>
                 </div>
 
-                <div class="service">
+                <div class="service" data-aos="zoom-in" data-aos-delay="600">
                     <div class="icon">
-                        <i class="fas fa-plug"></i> <!-- Font Awesome icon for creating API -->
+                        <i class="fas fa-plug"></i>
                     </div>
                     <div class="title">Creating API</div>
                     <div class="description">
@@ -241,19 +253,25 @@
 
             </div>
         </div>
+
         <!-- resume-section  -->
-        <div id="resume" class="resume-section">
-            <p>I’m a Web Developer with 3 years of experience in creating responsive websites and web applications. I’ve
+        <div id="resume" class="resume-section" data-aos="fade-up" data-aos-duration="1000">
+            <p data-aos="fade-right" data-aos-duration="1200">
+                I’m a Web Developer with 3 years of experience in creating responsive websites and web applications.
+                I’ve
                 worked on e-commerce platforms, custom sites, and small projects, handling both front-end and back-end
-                development. Check out my resume.</p>
-            <a href="resume.pdf" download>
+                development. Check out my resume.
+            </p>
+            <a href="resume.pdf" download data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000">
                 <button>Resume</button>
             </a>
         </div>
+
         <!-- testimonials-section  -->
-        <div id="testimonials" class="testimonials-section">
+        <div id="testimonials" class="testimonials-section" data-aos="fade-up" data-aos-duration="1000">
+            <h2 class="section-title" data-aos="fade-down" data-aos-duration="1200">TESTIMONIALS</h2>
             <div class="testimonial-slider">
-                <div class="testimonial-slide">
+                <div class="testimonial-slide" data-aos="fade-right" data-aos-delay="100">
                     <div class="testimonial-content">
                         <div class="testimonial-image">
                             <img src="assets/images/testimonial-1.png" alt="Customer 1">
@@ -262,12 +280,7 @@
                         <div class="testimonial-text">
                             <h4>Mujahid - <span>Founder of Happy</span></h4>
                             <p>"Rasel developed a custom retail logistics website for our business, and it has been a
-                                game-changer.
-                                The site is sleek, easy to navigate, and perfectly tailored to our needs. The
-                                integration of real-time
-                                tracking and inventory management has streamlined our operations significantly. I
-                                couldn't be more
-                                pleased with the final product."</p>
+                                game-changer...</p>
                             <div class="testimonial-rating">
                                 <span>★★★★★</span>
                             </div>
@@ -275,7 +288,7 @@
                     </div>
                 </div>
 
-                <div class="testimonial-slide">
+                <div class="testimonial-slide" data-aos="fade-right" data-aos-delay="200">
                     <div class="testimonial-content">
                         <div class="testimonial-image">
                             <img src="assets/images/testimonial-2.png" alt="Customer 2">
@@ -284,12 +297,7 @@
                         <div class="testimonial-text">
                             <h4>Rubel Hossien - <span>Shop Owner</span></h4>
                             <p>"The management system Rasel built for my offline shop has made daily operations much
-                                smoother.
-                                The custom dashboard he created allows us to track sales, manage inventory, and generate
-                                reports
-                                with ease. The design is user-friendly, and Rasel was very responsive to our needs
-                                throughout the
-                                project. It has definitely made our work easier."</p>
+                                smoother...</p>
                             <div class="testimonial-rating">
                                 <span>★★★★</span>
                             </div>
@@ -297,7 +305,7 @@
                     </div>
                 </div>
 
-                <div class="testimonial-slide">
+                <div class="testimonial-slide" data-aos="fade-right" data-aos-delay="300">
                     <div class="testimonial-content">
                         <div class="testimonial-image">
                             <img src="assets/images/testimonial-3.png" alt="Customer 3">
@@ -306,12 +314,7 @@
                         <div class="testimonial-text">
                             <h4>Sara Farin - <span>Ecommerce Website Owner</span></h4>
                             <p>"Rasel created a dynamic e-commerce website for my business, and it has greatly improved
-                                our online
-                                sales. The website is responsive, easy to use, and beautifully designed. He also
-                                integrated payment
-                                gateways seamlessly, making transactions smooth for our customers. I'm thrilled with the
-                                results and
-                                highly recommend his services."</p>
+                                our online sales...</p>
                             <div class="testimonial-rating">
                                 <span>★★★★★</span>
                             </div>
@@ -319,7 +322,7 @@
                     </div>
                 </div>
 
-                <div class="testimonial-slide">
+                <div class="testimonial-slide" data-aos="fade-right" data-aos-delay="400">
                     <div class="testimonial-content">
                         <div class="testimonial-image">
                             <img src="assets/images/testimonial-4.png" alt="Customer 4">
@@ -328,12 +331,7 @@
                         <div class="testimonial-text">
                             <h4>Wood Andrerson - <span>Doctor</span></h4>
                             <p>"Rasel developed a professional portfolio website for my practice, and the results have
-                                been
-                                outstanding. The site is clean, informative, and showcases my work in a way that
-                                attracts new patients.
-                                His attention to detail and understanding of my requirements were spot on. The website
-                                has been
-                                well-received by my clients and peers alike."</p>
+                                been outstanding...</p>
                             <div class="testimonial-rating">
                                 <span>★★★★★</span>
                             </div>
@@ -341,7 +339,7 @@
                     </div>
                 </div>
 
-                <div class="testimonial-slide">
+                <div class="testimonial-slide" data-aos="fade-right" data-aos-delay="500">
                     <div class="testimonial-content">
                         <div class="testimonial-image">
                             <img src="assets/images/testimonial-5.png" alt="Customer 5">
@@ -350,12 +348,7 @@
                         <div class="testimonial-text">
                             <h4>Ryen - <span>Architect</span></h4>
                             <p>"Rasel created a website to showcase my architecture books, and it turned out better than
-                                I imagined.
-                                The design is elegant, and the layout is perfect for displaying my work and promoting my
-                                publications.
-                                The website is easy to update, and Rasel ensured that it performs well on all devices.
-                                I'm extremely
-                                satisfied with the outcome."</p>
+                                I imagined...</p>
                             <div class="testimonial-rating">
                                 <span>★★★★★</span>
                             </div>
@@ -363,100 +356,107 @@
                     </div>
                 </div>
             </div>
-
         </div>
+
         <!-- contact-section  -->
-        <div id="contact" class="contact-section">
-            <h2>Contact Me</h2>
+        <div id="contact" class="contact-section" data-aos="fade-up" data-aos-duration="1000">
+            <h2 data-aos="fade-down" data-aos-duration="1200">Contact Me</h2>
             <form id="contact-form">
-                <div class=" form-group">
+                <div class="form-group" data-aos="fade-right" data-aos-delay="100">
                     <label for="name">Your Name:</label>
                     <input type="text" id="name" name="name" required>
                 </div>
-                <div class="form-group">
+                <div class="form-group" data-aos="fade-right" data-aos-delay="200">
                     <label for="email">Your Email:</label>
                     <input type="email" id="email" name="email" required>
                 </div>
-                <div class="form-group">
+                <div class="form-group" data-aos="fade-right" data-aos-delay="300">
                     <label for="subject">Subject:</label>
                     <input type="text" id="subject" name="subject" required>
                 </div>
-                <div class="form-group">
+                <div class="form-group" data-aos="fade-right" data-aos-delay="400">
                     <label for="message">Your Message:</label>
                     <textarea id="message" name="message" rows="5" required></textarea>
                 </div>
-                <button type="submit" class="submit-btn">Send Message</button>
+                <button type="submit" class="submit-btn" data-aos="zoom-in" data-aos-delay="500">Send Message</button>
             </form>
         </div>
+
         <!-- workflow-section  -->
-        <div id="workflow" class="workflow-section">
-            <h2>My Workflow</h2>
+        <div id="workflow" class="workflow-section" data-aos="fade-up" data-aos-duration="1000">
+            <h2 data-aos="fade-down" data-aos-duration="1200">My Workflow</h2>
             <div class="workflow-container">
-                <div class="workflow-step">
+                <div class="workflow-step" data-aos="fade-right" data-aos-delay="100">
                     <div class="step-number">1</div>
                     <h3>Step One</h3>
                     <p>Understanding the client's requirements, vision, and goals.</p>
                 </div>
-                <div class="workflow-step">
+                <div class="workflow-step" data-aos="fade-right" data-aos-delay="200">
                     <div class="step-number">2</div>
                     <h3>Step Two</h3>
                     <p>Gathering all necessary information and media assets.</p>
                 </div>
-                <div class="workflow-step">
+                <div class="workflow-step" data-aos="fade-right" data-aos-delay="300">
                     <div class="step-number">3</div>
                     <h3>Step Three</h3>
                     <p>Creating a detailed work process with clear steps.</p>
                 </div>
-                <div class="workflow-step">
+                <div class="workflow-step" data-aos="fade-right" data-aos-delay="400">
                     <div class="step-number">4</div>
                     <h3>Step Four</h3>
                     <p>Executing the project according to the plan.</p>
                 </div>
-                <div class="workflow-step">
+                <div class="workflow-step" data-aos="fade-right" data-aos-delay="500">
                     <div class="step-number">5</div>
                     <h3>Step Five</h3>
                     <p>Testing the work to ensure quality and functionality.</p>
                 </div>
-                <div class="workflow-step">
+                <div class="workflow-step" data-aos="fade-right" data-aos-delay="600">
                     <div class="step-number">6</div>
                     <h3>Step Six</h3>
                     <p>Collecting client feedback and making the project live.</p>
                 </div>
             </div>
         </div>
+
         <!-- FAQ-section  -->
-        <div id="FAQ" class="FAQ-section">
-            <h2>Frequently Asked Questions</h2>
+        <div id="FAQ" class="FAQ-section" data-aos="fade-up" data-aos-duration="1000">
+            <h2 data-aos="fade-down" data-aos-duration="1200">Frequently Asked Questions</h2>
             <div class="faq-container">
-                <div class="faq-item">
+                <div class="faq-item" data-aos="fade-right" data-aos-delay="100">
                     <div class="faq-question">What payment methods do you accept?</div>
                     <div class="faq-answer">I accept payments through various methods including Bank Transfer, Payoneer,
-                        Skrill, stripe, Bkash, Nagad, Rocket,
-                        . <a style="color: var(--main-light);" href="#contact">Let me
+                        Skrill, Stripe, Bkash, Nagad, Rocket.
+                        <a style="color: var(--main-light);" href="#contact">Let me
                             know your</a> preferred
                         option, and I can
-                        provide the details. </div>
+                        provide the details.
+                    </div>
                 </div>
-                <div class="faq-item">
+                <div class="faq-item" data-aos="fade-right" data-aos-delay="200">
                     <div class="faq-question">Do you offer a project milestone payment structure?</div>
                     <div class="faq-answer">Yes, for larger projects, I offer a milestone-based payment plan. You can
                         pay in stages as each phase of the project is completed. This ensures transparency and that
-                        you’re satisfied with the progress before moving forward.</div>
+                        you’re satisfied with the progress before moving forward.
+                    </div>
                 </div>
-                <div class="faq-item">
+                <div class="faq-item" data-aos="fade-right" data-aos-delay="300">
                     <div class="faq-question">Can you assist with domain registration and hosting setup?</div>
                     <div class="faq-answer">Absolutely! I can guide you through domain registration and set up your
                         website hosting. If needed, I can also recommend reliable hosting providers or manage the setup
-                        on your behalf.</div>
+                        on your behalf.
+                    </div>
                 </div>
-                <div class="faq-item">
+                <div class="faq-item" data-aos="fade-right" data-aos-delay="400">
                     <div class="faq-question">Do you offer any guarantees or post-launch support?</div>
                     <div class="faq-answer">Yes, I offer post-launch support to address any issues that may arise after
                         the website goes live. Additionally, I provide a 30-day guarantee period where any bugs or
-                        errors will be fixed free of charge.</div>
+                        errors will be fixed free of charge.
+                    </div>
                 </div>
             </div>
         </div>
+
         <!-- gigs-section  -->
         <!-- <div id="gigs" class="gigs-section">
             <h2>Available Gigs</h2>
@@ -473,67 +473,69 @@
             </div>
         </div> -->
         <!-- ebooks-section  -->
-        <div id="ebooks" class="ebooks-section">
-            <h2>My eBooks</h2>
-            <p style="text-align: center;">No Books Available</p>
-            <!-- <div class="ebooks-container">
-                <div class="ebook-card">
+        <div id="ebooks" class="ebooks-section" data-aos="fade-up" data-aos-duration="1000">
+            <h2 data-aos="fade-down" data-aos-duration="1200">My eBooks</h2>
+            <p style="text-align: center;" data-aos="fade-up" data-aos-delay="200">No Books Available</p>
+
+            <!-- Uncomment and use the below code if eBooks are added in the future -->
+            <!--
+            <div class="ebooks-container">
+                <div class="ebook-card" data-aos="zoom-in" data-aos-delay="100">
                     <div class="image">
                         <img src="assets/images/Master.jpg" alt="">
                     </div>
                     <div class="price">15 Tk</div>
                 </div>
-                <div class="ebook-card">
+                <div class="ebook-card" data-aos="zoom-in" data-aos-delay="200">
                     <div class="image">
                         <img src="assets/images/Master.jpg" alt="">
                     </div>
                     <div class="price">15 Tk</div>
                 </div>
-                <div class="ebook-card">
+                <div class="ebook-card" data-aos="zoom-in" data-aos-delay="300">
                     <div class="image">
                         <img src="assets/images/Master.jpg" alt="">
                     </div>
                     <div class="price">15 Tk</div>
                 </div>
-                <div class="ebook-card">
+                <div class="ebook-card" data-aos="zoom-in" data-aos-delay="400">
                     <div class="image">
                         <img src="assets/images/Master.jpg" alt="">
                     </div>
                     <div class="price">15 Tk</div>
                 </div>
-            </div> -->
-            <!-- Add more ebook cards as needed -->
+            </div>
+            -->
         </div>
+
         <!-- shop-section  -->
         <!-- <div id="shop" class="shop-section"></div> -->
 
         <!-- interests-section  -->
-        <div id="interests" class="interests-section">
-            <div class="interests-title">My Intarests</div>
+        <div id="interests" class="interests-section" data-aos="fade-up" data-aos-duration="1000">
+            <div class="interests-title" data-aos="fade-down" data-aos-duration="1200">My Interests</div>
             <div class="interests">
-
-                <div class="interest">
+                <div class="interest" data-aos="zoom-in" data-aos-delay="100">
                     Business
                 </div>
-                <div class="interest">
+                <div class="interest" data-aos="zoom-in" data-aos-delay="200">
                     Planning
                 </div>
-                <div class="interest">
+                <div class="interest" data-aos="zoom-in" data-aos-delay="300">
                     Writing
                 </div>
-                <div class="interest">
+                <div class="interest" data-aos="zoom-in" data-aos-delay="400">
                     Reading
                 </div>
-                <div class="interest">
+                <div class="interest" data-aos="zoom-in" data-aos-delay="500">
                     Photography
                 </div>
-                <div class="interest">
+                <div class="interest" data-aos="zoom-in" data-aos-delay="600">
                     Traveling
                 </div>
-                <div class="interest">
+                <div class="interest" data-aos="zoom-in" data-aos-delay="700">
                     Filmography
                 </div>
-
             </div>
         </div>
 
@@ -544,14 +546,14 @@
         <!-- <div id="terms" class="Terms-section"></div> -->
 
         <!-- footer-section  -->
-        <footer>
+        <footer data-aos="fade-up" data-aos-duration="1000">
             <div class="footer-container">
-                <div class="footer-about">
+                <div class="footer-about" data-aos="fade-right" data-aos-delay="100">
                     <h3>About Me</h3>
                     <p>I'm a web developer with skills in HTML, CSS, JavaScript, PHP, and more. I create clean and
                         minimalistic designs.</p>
                 </div>
-                <div class="footer-links">
+                <div class="footer-links" data-aos="fade-right" data-aos-delay="200">
                     <h3>Quick Links</h3>
                     <ul>
                         <li><a href="#hero">Home</a></li>
@@ -560,12 +562,10 @@
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
-                <div class="footer-social">
+                <div class="footer-social" data-aos="fade-right" data-aos-delay="300">
                     <h3>Follow Me</h3>
                     <ul>
-                        <!-- <li><a href="#" target="_blank">LinkedIn</a></li> -->
-                        <li><a href="https://github.com/mohammad-russel" target="_blank">Github</a>
-                        </li>
+                        <li><a href="https://github.com/mohammad-russel" target="_blank">Github</a></li>
                         <li><a href="https://www.instagram.com/rasel_122000/" target="_blank">Instagram</a></li>
                         <li><a href="https://www.facebook.com/profile.php?id=61560266882811"
                                 target="_blank">Facebook</a></li>
@@ -577,15 +577,19 @@
             </div>
         </footer>
 
+
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 <script>
+    $(".close").hide()
     $(document).ready(function () {
-        $(".close").hide()
         $(".open").click(function () {
             $(this).hide();
             $(".close").fadeIn();
@@ -646,7 +650,7 @@
         });
         // ===============
 
-    })
+    }) 
 </script>
 
 </html>
